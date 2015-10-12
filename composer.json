@@ -1,0 +1,24 @@
+{
+    "name": "madlines/common-mapping",
+    "type": "library",
+    "description": "Generic mapping library",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksander Ciesiolkiewicz",
+            "email": "a.ciesiolkiewicz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Madlines\\Common\\Mapping\\": "src"
+        }
+    }
+}
